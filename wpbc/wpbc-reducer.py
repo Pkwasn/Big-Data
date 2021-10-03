@@ -30,7 +30,7 @@ for line in lines:
 print('%s\t%.2f %s' % ('\nAverage Tumor Size:', average_tumor[last_key],'units'))
 
 tumor_count = 0 									# Count for how many cases
-											# have more radius than the 
+											# have a greater radius than the 
 for line in lines:									# average clump thickness
 	line = line.strip()
 	key, radius = line.split('\t')
