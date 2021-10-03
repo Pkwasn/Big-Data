@@ -27,7 +27,7 @@ for line in lines:
 		average_tumor[key] = radius
 		last_key = key
 
-print('\n%s\t%.2f %s' % ('Average Tumor Size:', average_tumor[last_key],'units'))
+print('%s\t%.2f %s' % ('\nAverage Tumor Size:', average_tumor[last_key],'units'))
 
 tumor_count = 0 									# Count for how many cases
 											# have more radius than the 
