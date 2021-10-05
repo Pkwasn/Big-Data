@@ -13,6 +13,7 @@ for line in sys.stdin:
     line = line.strip()
     values = line.split(',')
 
-    tumor_radius = values[3]
+    tumor_radius = values[3]            # Radius of Tumor in cm
+    diagnosis = values[1]               # M = Malignant, B = Benign
 
-    print('%s\t%s' % ('1',tumor_radius))
+    print('%s\t%s' % (diagnosis,tumor_radius))
