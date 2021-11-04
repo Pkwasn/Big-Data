@@ -9,6 +9,7 @@ val text = sc.textFile("input") // Directory containing input.txt
 val header = text.first() //this is out header
 val data = text.filter(x => x != header)
 val categoricalFeatureInfo = Map[Int,Int]((1,2),(3,4),(4,2),(5,2) )
+val categoricalFeatureInfo = Map[Int,Int]()
 
 val data = rawdata.map{ line =>
     val values = line.split(',').map(line => line.toDouble)
