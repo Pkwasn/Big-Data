@@ -1,0 +1,10 @@
+Name,Weight(kg),Legs,Color,Good pet
+Fido,20.5,4,Brown,yes
+Mr.Slither,3.1,0,Green,no
+Nemo,0.2,0,Tan,yes
+Dumbo,1390.8,4,Grey,no
+Kitty,12.1,4,Grey,yes
+Jim,150.9,2,Tan,no
+Millie,0.1,100,Brown,no
+McPigeon,1.0,2,Grey,no
+Spot,10.0,4,Brown,yes
